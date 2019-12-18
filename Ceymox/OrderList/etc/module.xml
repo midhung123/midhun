@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * @author Ceymox
+ * @copyright Copyright (c) 2019 ceymox
+ * @package Ceymox_OrderList
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Ceymox_OrderList" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Sales" />
+        </sequence>
+    </module>
+</config>
