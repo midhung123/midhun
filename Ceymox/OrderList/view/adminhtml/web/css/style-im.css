@@ -1,0 +1,51 @@
+/** 
+ */
+.import-btn{  
+    background: #eb5202;
+    font-weight: 600;
+    border-color: #eb5202;
+    color: #ffffff;    
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);  
+    border-radius: 0;
+    display: inline-block;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.36;
+    padding: 0.6rem 1em 0.6rem;
+    text-align: center;
+    vertical-align: baseline;
+}
+.import-btn:hover{
+    background-color: #ba4000;
+    border-color: #b84002;
+    box-shadow: 0 0 0 1px #007bdb;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 0;
+    display: inline-block;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.36;
+    padding: 0.6rem 1em 0.6rem;
+    text-align: center;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+.admin__legend{
+    font-size: 24px;
+}
+.zipimport_form{
+    width: 50%;
+}
+.field-csvfield{
+    float:left;
+}
+.field-button-imp{
+    float:left;
+    margin-top: 1px;
+}
+.admin__field + .admin__field{
+    margin-top: 1px;
+}

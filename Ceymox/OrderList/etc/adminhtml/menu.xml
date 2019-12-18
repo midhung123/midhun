@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Ceymox
+ * @copyright Copyright (c) 2019 Ceymox
+ * @package Ceymox_OrderList
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+  <menu>   
+    <add id="Ceymox_OrderList::order" title="Purchase History" module="Ceymox_OrderList" sortOrder="60" action="order/index/" resource="Ceymox_OrderList::order" parent="Magento_Sales::sales"/>
+  </menu>
+</config>
